@@ -1,0 +1,16 @@
+.DS_Store
+
+# IU copyright: the task sheet and guidelines must not be published (task sheet p.2)
+*.pdf
+
+# Datasets: re-downloadable via Hugging Face `datasets`, never committed
+/data/
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Claude Code local settings
+.claude/settings.local.json
