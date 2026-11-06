@@ -1,20 +1,47 @@
 .DS_Store
 
-# IU copyright: the task sheet and guidelines must not be published (task sheet p.2)
+# Course material: the task sheet and guidelines are copyrighted and must not be published
 *.pdf
 
-# Datasets: re-downloadable via Hugging Face `datasets`, never committed
+# Report drafts: kept private until submission, so the text can't be copied
+report/
+*.docx
+*.doc
+*.odt
+
+# Datasets: re-downloadable via scikit-learn / Hugging Face `datasets`, never committed
 /data/
 .cache/
+
+# Trained models: rebuilt from code + seeds
+*.joblib
+*.pkl
+*.pickle
+
+# Secrets and environment files
+.env
+.env.*
+*.pem
+*.key
+secrets/
 
 # Python
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+.venv/
+venv/
+
+# Editors and logs
+.vscode/
+.idea/
+*.log
 
 # Claude Code local settings
 .claude/settings.local.json
 
 # Private local notes
 CLAUDE.local.md
-LEARNING_LOG.md
+
+# Local Claude Code instructions (kept off the public repo)
+CLAUDE.md

@@ -104,7 +104,7 @@ _To fill as terms appear._
 ---
 
 ## Further notes (things I'm writing by hand)
-Pinning versions and fixed seeds makes results reproducible because version changes might "move" the underlying mechanisms, weights, or details of the program; and different seeds change the data sampling and therefore produce different results Stop NLP. depending on the seed, making it harder to isolate variability due to the sampling or due to the system/model/pipeline itself.
+Pinning versions and fixed seeds makes results reproducible because version changes might "move" the underlying mechanisms, weights, or details of the program; and different seeds change the data sampling and therefore produce different results depending on the seed, making it harder to isolate variability due to the sampling or due to the system/model/pipeline itself.
 
 TF-IDF weights refer to the importance of the given terms, as weight(word, doc). TF calculates how relevant a term is to a document, while IDF negatively calculates how common the term is across the entire corpus. The weight of the term will therefore be calculated as TF x IDF. So, words that are very common will be pushed to 0 IDF (e.g. stop words), whereas those that are rare and therefore carry more weight (e.g. specific terms) will have a higher IDF. 
 
