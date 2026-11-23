@@ -1,0 +1,9 @@
+{
+  "domain": "arxiv",
+  "seed": 42,
+  "n_train": 28388,
+  "n_test": 2500,
+  "n_classes": 11,
+  "macro_f1": 0.83255285602529,
+  "accuracy": 0.8396
+}

@@ -1,0 +1,9 @@
+{
+  "domain": "news",
+  "seed": 42,
+  "n_train": 11014,
+  "n_test": 7317,
+  "n_classes": 20,
+  "macro_f1": 0.6993008533325341,
+  "accuracy": 0.7113571135711357
+}
